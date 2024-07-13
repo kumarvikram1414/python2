@@ -163,6 +163,44 @@ else:
     print('no')
 '''
 
+# find the odd number
+# if number apperar emultiple of 2 then it's even other wise odd
+
+'''
+def odd(num):
+    
+    res=[]
+    fi=[]
+
+    for i in (num):
+        count=num.count(i)
+        if count%2!=0:
+            if i in res:
+                fi.append(i)
+            else:
+                res.append(i)
+    return fi 
+    # finding dupplicate
+    '''
+# using bit wise operetor    
+def odd(num):
+    res=0
+    for i in num:
+        res=res^i
+    return res
+    
+num=[10,11,11,10,12,12,12,1,1,1]
+
+print(odd(num))
+
+
+
+
+
+
+
+
+
 
 
     
