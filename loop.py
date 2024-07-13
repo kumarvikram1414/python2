@@ -183,7 +183,7 @@ def odd(num):
     # finding dupplicate
     '''
 # using bit wise operetor    
-def odd(num):
+'''def odd(num):
     res=0
     for i in num:
         res=res^i
@@ -191,27 +191,7 @@ def odd(num):
     
 num=[10,11,11,10,12,12,12,1,1,1]
 
-print(odd(num))
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
+print(odd(num))'''
 
 
 
