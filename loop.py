@@ -194,6 +194,18 @@ num=[10,11,11,10,12,12,12,1,1,1]
 print(odd(num))'''
 
 
+#Reverse List
+
+l=[1,24,5,1,6,]
+s=0
+e=len(l)-1
+
+while s<e:
+    l[s],l[e]=l[e],l[s]
+    s=s+1
+    e=e-1
+print(l)
+    
 
 
 
