@@ -230,11 +230,16 @@ for i in l:
 print(l)'''
 
 
-        
 
+# Right rotate list 
 
+def reo(l):
+    n=len(l)
+    x=l[0] # store 1st value of list
+    for i in range(1,n):
+        l[i-1]=l[i] # left shift the list
+    l[n-1]=x #add store value to list at last.
 
-
-
-
-
+l=[10,1,20,4]
+reo(l) 
+print(l)
