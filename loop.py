@@ -196,16 +196,42 @@ print(odd(num))'''
 
 #Reverse List
 
-l=[1,24,5,1,6,]
+'''l=[11,2,2,6,66]
+
 s=0
-e=len(l)-1
+e=len(i)-1
 
 while s<e:
-    l[s],l[e]=l[e],l[s]
+    i[s],i[e]=i[e],i[s]
     s=s+1
     e=e-1
 print(l)
-    
+    '''
+
+#multiple list reverse
+
+'''m=[[1,2,3],[3,2,4],[5,4,23]]
+
+for i in m: 
+    i.reverse()
+    print(i)
+'''
+
+
+'''l=[[1,2,3],[3,2,4],[5,4,23]]
+for i in l:
+    s=0
+    e=len(i)-1
+
+    while s<e:
+        i[s],i[e]=i[e],i[s]
+        s=s+1
+        e=e-1
+print(l)'''
+
+
+        
+
 
 
 
