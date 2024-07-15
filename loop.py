@@ -232,7 +232,7 @@ print(l)'''
 
 
 # Right rotate list 
-
+'''
 def reo(l):
     n=len(l)
     x=l[0] # store 1st value of list
@@ -242,4 +242,57 @@ def reo(l):
 
 l=[10,1,20,4]
 reo(l) 
+print(l)'''
+
+# Left Rotate 
+'''class so:
+    def rr(self,l):
+        s=l[0]
+        x=len(l)
+        for i in range(1,x):
+            l[i-1]=l[i]
+        l[x-1]=s
+        return l
+
+l=[2,3,1,13]
+q=so()
+r=q.rr(l)
+print(r)'''
+
+
+'''def rr(l):
+    n=2
+    while n>0:
+        n=n-1
+        for i in range(len(l)):
+            a=l.pop(0  )
+            l.append(a)        
+        return l
+l=[2,3,1,44,12]
+rr(l)
 print(l)
+
+'''
+
+l=[1,2,3,4,56]
+co=0
+while l>0:
+    co+=co
+print(co)
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
