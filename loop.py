@@ -274,13 +274,38 @@ print(l)
 
 '''
 
-l=[1,2,3,4,56]
+'''l=[1,2,3,4,56]
 co=0
-while l>0:
-    co+=co
-print(co)
-    
+s=[]
+for i in l:
+    co=co+1
+
+    for i in range(l(co)):
+        a=i**2
+        s.append(i)
+    print(s[i])
+    '''
         
+    
+'''nums=[4,5,6,7,0,1,2]
+target=0
+for i in range(len(nums)):
+            if nums[i]==target:
+                print(i)
+            else:
+                print(-1)
+
+'''
+
+
+n=[1,2,3]
+re=1
+for i in range(2,len(n)+1):
+    re*=i
+print(re)
+    
+
+
 
 
 
