@@ -304,12 +304,12 @@ for i in range(2,len(n)+1):
     re*=i
 print(re)'''
     
-
+# left rotate
 num=[4,1,5,6,3,2,55]
-x=[2]
-d=len(num)-num[0,2]
-print(d)
-print(num)    
+
+for i in range(0,3):
+    num.append(num.pop(0))
+print(num)
 
 
 
