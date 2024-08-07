@@ -298,12 +298,24 @@ for i in range(len(nums)):
 '''
 
 
-n=[1,2,3]
+'''n=[1,2,3,8]
 re=1
 for i in range(2,len(n)+1):
     re*=i
-print(re)
+print(re)'''
     
+
+num=[4,1,5,6,3,2,55]
+x=[2]
+d=len(num)-num[0,2]
+print(d)
+print(num)    
+
+
+
+
+
+
 
 
 
