@@ -325,8 +325,41 @@ print(r)'''
 
 # Find smalles missing interger
 
-num=[2,3,5,9]
- for i in range(num):
+"""num=[2,3,5,9]
+
+a=[]
+
+for i in range(0,15):
+    i=i+1
+    
+    a.append(i)
+
+
+for i in num:
+    for j in a:
+        if j!=i:
+            
+            break
+            """
+
+
+#LLR
+
+
+l=[2,3,4,11,22]
+
+d=3
+m=l[d:]+l[:d]
+print(m)
+
+
+
+
+
+
+
+
+
 
 
 
